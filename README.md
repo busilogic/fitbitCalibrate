@@ -36,7 +36,41 @@ and y co-ordinates and the trainee’s orientation.
 move until the first one has finished the calibration.
 
 ## Design
+### Objects
+* Pitch - represents the soccer field.
+  Contains the size of the pitch and when moving if it's a valid position
+  Ex: Out of bounds, cannot move there.
+  
+* Member - represents a member on the pitch. Handles turning left, right and moving forward.
+  A member is also aware of the Pitch and the size of the pitch.
+
+* Direction - Encapsulate valid directions. (N, S, E, W)
+
+* FileParser - handle taking input from a file.
+  Handles validating whether the coordinates of pitch are valid, whether member
+  coordinates are valid and if directions and movements are valid.
+
+## Testing
+* Code will be tested, if without unit tests, it will be tested in production.
+* It is much easier and cost effective to test before it hits production. :)
+
+### Test Classes
+* FileParserTest.java - test valid file input, test valid uppercoordinates of pitch
+
+* MemberTest.java
+** Test valid board placement
+** Test if invalid board placement, throws an error
+** Test valid movement
+** Test member cannot move off top right, left corner of pitch.
+** Test member cannot move off bottom right and bottom left corner of pitch
 
 
-## Design
+### Test Input Files
+* inputData.txt
+
+# To Improve the Code
+* Code is like art, it is never done. It can always be tweaked and improved.
+* But like art, you need to learn when good is good enough.
+* As the old saying goes enemy of good is perfect.
+
 
