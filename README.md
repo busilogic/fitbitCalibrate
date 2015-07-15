@@ -1,9 +1,6 @@
 # fitbitCalibrate
 
 ## Problem
-# fitbitCalibrate
-
-## Problem
 
 ### Introduction
 
@@ -25,22 +22,17 @@ the pitch using a simple string of letters.
 
 ### INPUT:
 
-The first line of input is the upper-right coordinates of the pitch, the lower-left coordinates are 
-
+* The first line of input is the upper-right coordinates of the pitch, the lower-left coordinates are 
 assumed to be 0,0.
 
-The rest of the input is information pertaining to the trainees that are on the pitch. Each trainee 
-
-has two lines of input from the coach. The first line gives the trainee’s position, and the second 
-
-line is a series of instructions telling the trainee how to move on the pitch.
-
-The position is made up of two integers and a letter separated by spaces, corresponding to the x 
-
+* The rest of the input is information pertaining to the trainees that are on the pitch.
+* Each trainee has two lines of input from the coach.
+* The first line gives the trainee’s position.
+* The second line is a series of instructions telling the trainee how to move on the pitch.
+* The position is made up of two integers and a letter separated by spaces, corresponding to the x 
 and y co-ordinates and the trainee’s orientation.
 
-Each trainee will be finished sequentially, which means that the second trainee won't start to 
-
+* Each trainee will be finished sequentially, which means that the second trainee won't start to 
 move until the first one has finished the calibration.
 
 ## Design
