@@ -83,6 +83,9 @@ move until the first one has finished the calibration.
 * Read input file by passing in from command line
 * Make file into a jar so it can be run from the shell
 * Use Maven or gradle for package and dependency management
+* Use relative file paths to make code more portable
 
 ### To run the code
+* Update file path in Main.java
+* Update filepaths in Test classes
 * Run main.java
