@@ -80,3 +80,5 @@ move until the first one has finished the calibration.
 * Make file into a jar so it can be run from the shell
 * Use Maven or gradle for package and dependency management
 
+### To run the code
+* Run main.java
