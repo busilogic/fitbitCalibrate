@@ -55,9 +55,12 @@ move until the first one has finished the calibration.
 * It is much easier and cost effective to test before it hits production. :)
 
 ### Test Classes
-* FileParserTest.java - test valid file input, test valid uppercoordinates of pitch
-  Test if file not found, throw IOException
-  Test if bad member directions or bad member coordinates throw IOException
+* FileParserTest.java
+  * Test valid file input
+  * Test throws IOException if file doesn't exist
+  * Test valid uppercoordinates of pitch
+  * Test if bad member directions or bad member coordinates throw IOException
+  
 * MemberTest.java
   * Test valid board placement
   * Test if invalid board placement, throws an error
@@ -68,6 +71,7 @@ move until the first one has finished the calibration.
 
 ### Test Input Files
 * inputData.txt
+* Other input files for bad input tests start with the word "bad"
 
 # To Improve the Code
 * Code is like art, it is never done. It can always be tweaked and improved.
