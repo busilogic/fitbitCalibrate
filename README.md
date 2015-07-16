@@ -74,4 +74,9 @@ move until the first one has finished the calibration.
 * But like art, you need to learn when good is good enough.
 * As the old saying goes enemy of good is perfect.
 
+## Things to do
+* Make Pitch class an interface so it can be reused and extended as Pitch shape changes
+* Read input file by passing in from command line
+* Make file into a jar so it can be run from the shell
+* Use Maven or gradle for package and dependency management
 
