@@ -56,13 +56,14 @@ move until the first one has finished the calibration.
 
 ### Test Classes
 * FileParserTest.java - test valid file input, test valid uppercoordinates of pitch
-
+  Test if file not found, throw IOException
+  Test if bad member directions or bad member coordinates throw IOException
 * MemberTest.java
-** Test valid board placement
-** Test if invalid board placement, throws an error
-** Test valid movement
-** Test member cannot move off top right, left corner of pitch.
-** Test member cannot move off bottom right and bottom left corner of pitch
+  * Test valid board placement
+  * Test if invalid board placement, throws an error
+  * Test valid movement
+  * Test member cannot move off top right, left corner of pitch.
+  * Test member cannot move off bottom right and bottom left corner of pitch
 
 
 ### Test Input Files
